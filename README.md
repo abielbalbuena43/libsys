@@ -28,8 +28,8 @@ This Library Management System was created to improve the efficiency of book len
 4. Launch the system through your browser at `http://localhost/lms`.
 
 ## 🔐 Default Admin Login
-- **Username**: `librarian`
-- **Password**: `password123`  
+- **User ID**: `0123456`
+- **Password**: `admin123`  
 *(You may change this in the `librarians` table via phpMyAdmin)*
 
 ## 📌 Notes
