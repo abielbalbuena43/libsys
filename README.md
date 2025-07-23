@@ -1,6 +1,48 @@
-### Project Overview
-![Capture](https://user-images.githubusercontent.com/79741002/157003727-7f567fec-a9e6-486f-94d3-4f92b6155d62.PNG)
+# Library Management System  
+**for Dela Paz National High School – Antipolo**
 
-This project is about Online Library Management System. There are two types of users: Admin and Students. Admin can see the students list who have registered, can see the books, add and update the information of books and also can issue the books that students have requested. Students can see the information of books and request for a book after registration in the website. Students can message the admin for any kind of help also. `HTML`,`CSS`,`Javascript` has been used to develop the frontend of the website and `PHP & MySQL` has been used for the backend. 
+## 📚 Overview
+This Library Management System was created to improve the efficiency of book lending and tracking at **Dela Paz National High School** in Antipolo. The system automates manual library processes such as book inventory management, borrowing, returning, and student record keeping.
 
-Site Link: https://nit-olms.000webhostapp.com/
+## 🛠 Features
+- Add, update, delete, and search books
+- Borrowing and returning system with due dates
+- Student and librarian records management
+- Real-time status updates on book availability
+- Admin login system
+
+## 💻 Tech Stack
+- **Backend**: PHP (Vanilla PHP, procedural)
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, JavaScript
+- **Environment**: XAMPP (Apache + MySQL)
+
+## 🏫 Target Users
+- Librarians of Dela Paz National High School
+- Students and faculty members (as borrowers)
+
+## 🚀 Setup Instructions
+1. Place the project folder (`lms/`) into your `htdocs` directory.
+2. Import the `lms.sql` database file using **phpMyAdmin**.
+3. Configure your database credentials in `includes/db.php`.
+4. Launch the system through your browser at `http://localhost/lms`.
+
+## 🔐 Default Admin Login
+- **Username**: `librarian`
+- **Password**: `password123`  
+*(You may change this in the `librarians` table via phpMyAdmin)*
+
+## 📌 Notes
+- This was developed as a school thesis/capstone project.
+- Focused on practical functionality for use in a real public school environment.
+- Can be upgraded with barcode support or report generation in the future.
+
+## 👨‍💻 Developer
+**Mark John O. Azores**  
+BSIT Student – Colegio de San Juan de Letran 
+
+**Jose Gabriel C. Balbuena**  
+BSIT Student – Colegio de San Juan de Letran  
+
+**Lexine Rae T. Montemayor**  
+BSIT Student – Colegio de San Juan de Letran  
